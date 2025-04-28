@@ -2,7 +2,6 @@
   "name": "boilerplate-typescript-lite-server",
   "version": "1.0.0",
   "description": "Boilerplate for a simple web server with Typescript",
-  "main": "dist/index.js",
   "scripts": {
     "start": "lite-server"
   },
@@ -17,8 +16,9 @@
   "author": "Gustavo Iha",
   "license": "ISC",
   "dependencies": {
-    "lite-server": "^2.6.1",
-    "tsc": "^2.0.4",
+    "lite-server": "^2.6.1"
+  },
+  "devDependencies": {
     "typescript": "^5.8.3"
   }
 }
